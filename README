@@ -1,16 +1,15 @@
 A few scripts here and there
 
->> ./pyfile.sh file_to_create.py copyright author@domain.tld
+>> ./pyfile.sh file_to_create.py 'copyright info' author@domain.tld
 >> cat file_to_create.py
 #!/usr/bin/python2.6
-# Copyright (c) 2011, Copyright Blah.
+# Copyright (c) 2011, copyright info.
 """Enter brief description here.
 
 Enter more details here about this file.
 """
 
-__author__ = 'me@domain.me'
+__author__ = 'author@domain.tld'
 
 
 if __name__ == '__main__':
-
