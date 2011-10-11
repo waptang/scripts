@@ -14,4 +14,8 @@ if __name__ == '__main__':
 EOF
 )
 
-echo -e "$python_body" > "${1}"
+if [ -f $1 ]; then
+    echo "ERROR: $1 already exists"
+else
+    echo -e "$python_body" > "${1}"
+fi
